@@ -7,9 +7,9 @@ This project is an Employee Attrition Prediction System developed using Python, 
 
 ## Features
 
-1. Employee Management: Add, update, and view employee details.
-2. Attrition Prediction: Predict the likelihood of an employee leaving the company.
-3. Data Management: All employee data is stored and managed in a MySQL database.
+- Employee Management: Add, update, and view employee details.
+-  Attrition Prediction: Predict the likelihood of an employee leaving the company.
+-   Data Management: All employee data is stored and managed in a MySQL database.
 
 
 ## Contributing
@@ -18,7 +18,7 @@ Contributions are welcome! Please fork this repository and submit a pull request
 
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](url) file for more details.
+This project is licensed under the MIT License. See the [LICENSE]([url](https://github.com/BenedictRaymond/HR-Management-System-with-Employee-Attrtition/blob/main/LICENSE)) file for more details.
 
 
 ## Acknowledgements
