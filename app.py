@@ -10,12 +10,12 @@ import warnings
 app = Flask(__name__)
 
 # Secret key for session management. You can generate a random key.
-app.secret_key = 'raymond123'
+app.secret_key = '******'
 
 # MySQL configurations
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'leenawastepaper'
+app.config['MYSQL_PASSWORD'] = '*******' #password
 app.config['MYSQL_DB'] = 'company'
 
 #importing model and scaler
