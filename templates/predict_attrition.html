@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\static\css\predict_attrition.css">
+    <title>Modify Employee</title>
+</head>
+<body>
+    
+    <h1>Predict Attrition</h1>
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Attrition</th>
+        </tr>
+        {% for i in range(n)%}
+        <tr>
+            <td>{{ids[i]}}</td>
+            {% if predictions[i] == 0 %}
+                <td>No</td>
+            {% endif %}
+            {% if predictions[i] == 1 %}
+                <td>Yes</td>
+            {% endif %}
+        </tr>
+        {% endfor %}
+    </table>
+
+    
+    
+</body>
+</html>

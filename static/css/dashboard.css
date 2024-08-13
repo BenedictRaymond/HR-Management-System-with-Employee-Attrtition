@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 10px;
+    background-color: rgba(255, 206, 147, 0.959);
+    color: rgba(48, 26, 0, 0.959);
+    
+}
+
+.navbar h1 {
+    font-family: "Fira Sans";
+}
+
+.navbar a {
+    color: rgba(48, 26, 0, 0.959);
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.navbar a:hover {
+    color: rgba(184, 101, 0, 0.959);
+}
+
+ul{
+    text-align: center;
+    color: #32cd32;
+    font-size: large;
+    text-shadow: #000000;
+}   
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.container h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0%;
+    font-size: xx-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 15px;
+    background-color: f8f9fa;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+}
+.btn img {
+    display: block;
+    margin: 0 auto 10px;
+    width: 250px;
+    height: 250px;
+    padding: 0%;
+}
+.btn:hover {
+    color: #777777;
+    background-color: #d7d7d7cc;
+
+}

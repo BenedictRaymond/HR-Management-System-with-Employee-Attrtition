@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\static\css\add_employee.css">
+    <title>Add Employee</title>
+</head>
+<body>
+    
+    <h1>Add Employee</h1>
+    <form method="post">
+        <label for="id">Id:</label>
+        <input type="number" id="id" name="id" required><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br>
+
+        <label for="DistanceFromHome">Distance From Home:</label>
+        <input type="number" id="DistanceFromHome" name="DistanceFromHome" required><br>
+
+        <label for="Gender">Gender:</label>
+        <select id="Gender" name="Gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br>
+
+        <label for="MonthlyIncome">Monthly Income:</label>
+        <input type="number" id="MonthlyIncome" name="MonthlyIncome" required><br>
+
+        <label for="NumCompaniesWorked">Number of Companies Worked:</label>
+        <input type="number" id="NumCompaniesWorked" name="NumCompaniesWorked" required><br>
+
+        <label for="OverTime">OverTime:</label>
+        <select id="OverTime" name="OverTime" required>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select><br>
+
+        <label for="PercentSalaryHike">Percentage of Salary Hike:</label>
+        <input type="number" id="PercentSalaryHike" name="PercentSalaryHike" required><br>
+
+        <label for="TotalWorkingYears">Total number of Working Years:</label>
+        <input type="number" id="TotalWorkingYears" name="TotalWorkingYears" required><br>
+
+        <label for="YearsAtCompany">Total number of Years at Company:</label>
+        <input type="number" id="YearsAtCompany" name="YearsAtCompany" required><br>
+
+        <label for="YearsInCurrentRole">Total number of Years in Current Role:</label>
+        <input type="number" id="YearsInCurrentRole" name="YearsInCurrentRole" required><br>
+
+        <label for="BusinessTravel">Business Travel:</label>
+        <select id="BusinessTravel" name="BusinessTravel" required>
+            <option value="Non-Travel">Non-Travel</option>
+            <option value="Travel_Frequently">Travel_Frequently</option>
+            <option value="Travel_Rarely">Travel_Rarely</option>
+        </select><br>
+
+        <label for="Department">Department:</label>
+        <select id="Department" name="Department" required>
+            <option value="Human Resources">Human Resources</option>
+            <option value="Research & Developmen">Research & Developmen</option>
+            <option value="Sales">Sales</option>
+        </select><br>
+
+        <label for="Education">Education:</label>
+        <select id="Education" name="Education" required>
+            <option value="Bachelor">Bachelor</option>
+            <option value="Below College">Below College</option>
+            <option value="College">College</option>
+            <option value="Doctor">30 min. to 1 hour</option>
+            <option value="Master">Master</option>
+        </select><br>
+
+        <label for="EnvironmentSatisfaction">Environment Satisfaction:</label>
+        <select id="EnvironmentSatisfaction" name="EnvironmentSatisfaction" required>
+            <option value="High">High</option>
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="Very High">Very High</option>
+        </select><br>
+
+        <label for="JobRole">Job Role:</label>
+        <select id="JobRole" name="JobRole" required>
+            <option value="Healthcare Representative">Healthcare Representative</option>
+            <option value="Human Resources">Human Resources</option>
+            <option value="Laboratory Technician">Laboratory Technician</option>
+            <option value="Manager">Manager</option>
+            <option value="Manufacturing Director">Manufacturing Director</option>
+            <option value="Research Director">Research Director</option>
+            <option value="Research Scientist">Research Scientist</option>
+            <option value="Sales Executive">Sales Executive</option>
+            <option value="Sales Representative">Sales Representative</option>
+        </select><br>
+
+        <label for="JobSatisfaction">Job Satisfaction:</label>
+        <select id="JobSatisfaction" name="JobSatisfaction" required>
+            <option value="High">High</option>
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="Very High">Very High</option>
+        </select><br>
+
+        <label for="MaritalStatus">Marital Status:</label>
+        <select id="MaritalStatus" name="MaritalStatus" required>
+            <option value="Divorced">Divorced</option>
+            <option value="Married">Married</option>
+            <option value="Single">Single</option>
+        </select><br>
+
+        <label for="RelationshipSatisfaction">Relationship Satisfaction:</label>
+        <select id="RelationshipSatisfaction" name="RelationshipSatisfaction" required>
+            <option value="High">High</option>
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="Very High">Very High</option>
+        </select><br>
+
+        <label for="WorkLifeBalance">Work Life Balance:</label>
+        <select id="WorkLifeBalance" name="WorkLifeBalance" required>
+            <option value="Bad">High</option>
+            <option value="Best">Low</option>
+            <option value="Better">Medium</option>
+            <option value="Good">Very High</option>
+        </select><br>
+
+        <div class="button">
+            <button type="submit" class="btn" >Submit</button>
+        </div>
+    </form>
+    
+    
+</body>
+</html>

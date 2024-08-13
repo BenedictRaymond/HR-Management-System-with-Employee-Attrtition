@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 5%;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+  }
+
+  
+  h2, h1{
+    text-align: center;
+  }
+  
+  table {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    
+  }
+
+  td, th{
+      font-size: xx-large;
+      border: 1px solid;
+      
+    }
+  
+    th {
+      background-color: rgba(255, 206, 147, 0.959);
+      padding: 5px;
+    }

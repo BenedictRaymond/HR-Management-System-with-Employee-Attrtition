@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Employees</title>
+    <link rel="stylesheet" href="\static\css\show_employees.css">
+</head>
+<body>
+    <h2>Employee Details</h2>
+    <table class="table">
+        <tr>        
+            <th> ID </th>
+            <th> Age </th>
+            <th> DistanceFromHome </th>
+            <th> Gender </th>
+            <th> MonthlyIncome </th>
+            <th> NumCompaniesWorked </th>
+            <th>OverTime</th>
+            <th> PercentSalaryHike </th>
+            <th>TotalWorkingYears</th>
+            <th>YearsAtCompany</th>
+            <th>YearsInCurrentRole</th>
+            <th>BusinessTravel</th>
+            <th>Department</th>
+            <th>Education</th>
+            <th>EnvironmentSatisfaction</th>
+            <th>JobRole</th>
+            <th>JobSatisfaction</th>
+            <th>MaritalStatus</th>
+            <th>RelationshipSatisfaction</th>
+            <th>WorkLifeBalance</th>
+            
+        </tr>
+        {% for employee in employees %}
+        <tr>
+            <td>{{ employee.id }}</td>
+            <td>{{ employee.Age }}</td>
+            <td>{{ employee.DistanceFromHome }}</td>
+            <td>{{ employee.Gender }}</td>
+            <td>{{ employee.MonthlyIncome }}</td>
+            <td>{{ employee.NumCompaniesWorked }}</td>
+            <td>{{ employee.OverTime }}</td>
+            <td>{{ employee.PercentSalaryHike }}</td>
+            <td>{{ employee.TotalWorkingYears }}</td>
+            <td>{{ employee.YearsAtCompany }}</td>
+            <td>{{ employee.YearsInCurrentRole }}</td>
+            <td>{{ employee.BusinessTravel }}</td>
+            <td>{{ employee.Department }}</td>
+            <td>{{ employee.Education }}</td>
+            <td>{{ employee.EnvironmentSatisfaction }}</td>
+            <td>{{ employee.JobRole }}</td>
+            <td>{{ employee.JobSatisfaction }}</td>
+            <td>{{ employee.MaritalStatus }}</td>
+            <td>{{ employee.RelationshipSatisfaction }}</td>
+            <td>{{ employee.WorkLifeBalance }}</td>
+            
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+

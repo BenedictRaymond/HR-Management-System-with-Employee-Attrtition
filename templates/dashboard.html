@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="\static\css\dashboard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>HR Dashboard</h1>
+        <nav>
+            <a href="/dashboard">Home</a>
+            <a href="/add_employee">Add Employee</a>
+            <a href="/modify_employee">Modify Employee</a>
+            <a href="/predict_attrition">Predict Attrition</a>
+            <a href="/show_employees">Show Employees</a>
+            <a href="/">Logout</a>
+        </nav>
+    </div>
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <ul>
+        {% for message in messages %}
+          <li>{{ message }}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+    <div class="container">
+        <h2>Hello, HR {{name}}!</h2>
+        <a href="/add_employee" class="btn">
+            <img src="/static/add.png" alt="Add Employee">
+            Add Employee
+        </a>
+        <a href="/modify_employee" class="btn">
+            <img src="\static\modify.png" alt="Modify Employee">
+            Modify Employee
+        </a>
+        <a href="/predict_attrition" class="btn">
+            <img src="\static\attrition.png" alt="Predict Attrition">
+            Predict Attrition
+        </a>
+    </div>
+</body>
+</html>
